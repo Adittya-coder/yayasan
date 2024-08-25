@@ -1,0 +1,319 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* General container style */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+}
+
+/* First Section Styles */
+.first-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    padding: 0;
+}
+
+.first-section .background-image {
+    width: 100%;
+    height: 100vh;
+    background: url('images/dekat\ pantai.jpg') no-repeat center center/cover;
+}
+
+.first-section .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+}
+
+.first-section .main-title {
+    position: absolute;
+    top: 25%;
+    left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    color: #3a3a3a;
+}
+
+.first-section .subtitle {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    color: #e76e2b;
+}
+
+.first-section .slogan {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+/* Second Section Styles */
+.second-section {
+    background-color: #75714B; /* Background color similar to the image */
+    height: 100vh;
+    padding: 50px;
+}
+
+.second-section .text-section {
+    flex: 1;
+    color: #fff;
+    padding-right: 50px;
+}
+
+.second-section .text-section h1 {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.second-section .text-section p {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.second-section .text-section .small-text {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.second-section .image-section {
+    flex: 1;
+}
+
+.second-section .image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Third Section (Tentang Kami) Styles */
+.third-section {
+    background-color: #edf25d;
+    padding: 50px 0;
+}
+
+.third-section .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.third-section .header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.third-section .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.third-section .images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.third-section .images img {
+    width: 48%;
+    border-radius: 8px;
+}
+
+.third-section .text {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Fourth Section (Image with Text Overlay) Styles */
+.image-text-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.image-text-section .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-text-section .text-overlay {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    width: 40%;
+}
+
+.image-text-section .text-overlay p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Menjaga Tradisi Section */
+.menjaga-tradisi-section {
+    background-color: #edf25d;
+    padding: 50px 0;
+    text-align: center;
+    color: #000;
+}
+
+.menjaga-tradisi-section .text-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menjaga-tradisi-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menjaga-tradisi-section h2 {
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.menjaga-tradisi-section .profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.menjaga-tradisi-section .profile-item {
+    width: 45%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.menjaga-tradisi-section .profile-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.menjaga-tradisi-section .profile-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menjaga-tradisi-section .profile-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Pendidikan dan Perlindungan Section */
+.pendidikan-section {
+    background-color: #7a7d48; /* Warna latar belakang yang mirip dengan gambar */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.pendidikan-section h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.pendidikan-section .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pendidikan-section .content img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.pendidikan-section .text {
+    max-width: 600px;
+    text-align: left;
+    color: #fff;
+}
+
+.pendidikan-section .text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.pendidikan-section .text p {
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+}
+
+/* Contact Us Section */
+.contact-section {
+    padding: 20px;
+    background-color: #f7f7f7; /* Warna latar belakang sesuai dengan gambar */
+    text-align: center;
+}
+
+.contact-header h1 {
+    background-color: #d8d44b; /* Warna latar belakang header sesuai gambar */
+    padding: 10px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px; /* Memberikan jarak antara kolom kiri dan kanan */
+}
+
+.contact-info, .location-info {
+    text-align: left;
+    font-size: 16px;
+}
+
+.contact-info h3, .location-info h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-email {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    margin-top: 20px;
+}
